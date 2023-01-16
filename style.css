@@ -1,7 +1,7 @@
 body {
     /* font-family: 'Dancing Script'; */
     /* font-family: 'Roboto', sans-serif; */
-    background-color: #ffeaa7;
+    background-color: rgb(255, 234, 167);
 }
 
 h1 {
@@ -10,15 +10,16 @@ h1 {
 
 .main {
     display: flex;
-    /* height: 100px; */
-
 }
 
 .note-introduction {
+    width: 250px;
     border-radius: 4px;
     font-size: 14px;
     line-height: 2;
     letter-spacing: 0.2px;
+    border: 1px black solid;
+    margin-right: 5px;
 }
 
 .note-introduction ul strong {
@@ -31,8 +32,13 @@ h1 {
 
 .note-visual {
     flex: 1;
-    background-color: yellow;
+    background-color: rgba(190, 237, 226, 0.574);
     border-radius: 4px;
+    padding: 8px;
+}
+
+.note-visual img {
+    width: 24px;
 }
 
 ul.a {
