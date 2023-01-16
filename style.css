@@ -1,0 +1,40 @@
+body {
+    /* font-family: 'Dancing Script'; */
+    /* font-family: 'Roboto', sans-serif; */
+    background-color: #ffeaa7;
+}
+
+h1 {
+    font-weight: 700;
+}
+
+.main {
+    display: flex;
+    /* height: 100px; */
+
+}
+
+.note-introduction {
+    border-radius: 4px;
+    font-size: 14px;
+    line-height: 2;
+    letter-spacing: 0.2px;
+}
+
+.note-introduction ul strong {
+    color: black;
+}
+
+.note-introduction ul img {
+    width: 18px;
+}
+
+.note-visual {
+    flex: 1;
+    background-color: yellow;
+    border-radius: 4px;
+}
+
+ul.a {
+    list-style-type: georgian;
+}
